@@ -9,3 +9,10 @@ section.annoucment {
   margin: 0;
   padding: 16px 0px;
 }
+
+.banner{
+  background-image: url("./components/images/banner.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+}
