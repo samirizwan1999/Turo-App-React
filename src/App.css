@@ -16,3 +16,6 @@ section.annoucment {
   width: 100%;
   height: 400px;
 }
+.search-filter {
+  display: flex;
+}

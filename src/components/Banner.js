@@ -16,9 +16,9 @@ const Banner = () => {
                         <div className='col-md-4'>
                         <div className='search-filter'>
                             <Input placeholder="City, Airport, Address and Hotel" />
-                        </div>
-                        <div className='date-pick'>
-                        <DatePicker defaultValue={dayjs('2015/01/01', dateFormat)} format={dateFormat} />
+                            <div className='date-pick'>
+                                <DatePicker defaultValue={dayjs('2015/01/01', dateFormat)} format={dateFormat} />
+                            </div>  
                         </div>
                         </div>
                         <div className='col-md-4'></div>
