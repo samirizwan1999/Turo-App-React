@@ -5,6 +5,7 @@ import Banner from "./components/Banner"
 import Title from "./components/Title"
 import ProductSlider from "./components/ProductSlider"
 import OutdoorSlider from "./components/OutdoorSlider"
+import Faqs from "./components/Faqs"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Title />
       <ProductSlider />
       <OutdoorSlider />
+      <Faqs />
     </div>
   );
 }

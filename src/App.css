@@ -234,3 +234,72 @@ button.slick-arrow.slick-next {
 .collect img {
   width: 100%;
 }
+.out .row{
+  align-items: center;
+}
+.out .row .col-md-6 h3{
+  font-family: RlBasisGrotesque, Avenir, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: -0.2px;
+  line-height: 32px;
+  text-transform: none;
+}
+.out .row .col-md-6 span{
+  color: #593cfb;
+}
+button.btn.btn-primary.sam{
+  display: inline-block;
+  height: 50px;
+  line-height: 49px;
+  padding: 0 18px !important;
+  text-align: center;
+  vertical-align: top;
+  background-color: #593CFB !important;
+  border: 1px solid #593CFB !important;
+  color: #FFFFFF;
+  font-size: 18px !important;
+  -webkit-transition: 0.5s border,0.5s background;
+  transition: 0.5s border,0.5s background;
+  border-radius: 0% !important;
+}
+.FAQs_one h1 {
+  font-family: "Freight_Text_Pro_Bold";
+  font-size: 52px;
+  color: #121214;
+  text-align: center;
+  z-index: 6;
+}
+@media only screen and (max-width: 600px) {
+  .Search {
+    height: auto;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 14%);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+  }
+  .First h1 {
+    font-size: 50px;
+  }
+  .First h6 {
+    font-size: 16px;
+  }
+  .Cards {
+    margin: 0px 73px !important;
+  }
+  .react-multiple-carousel__arrow--left {
+    left: calc(72% + 0px) !important;
+  }
+  .Footer_text {
+    padding: 10px 10px !important;
+  }
+  .FAQs_one h1 {
+    font-size: 26px;
+  }
+  .Sec_Sec img{
+    width: 100%;
+  }
+}
+
