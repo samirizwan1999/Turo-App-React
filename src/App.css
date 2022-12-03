@@ -11,10 +11,14 @@ section.annoucment {
 }
 
 .banner{
-  background-image: url("./components/images/banner.jpg");
+  background-image: url("./components/images/banner2.jpg");
   background-size: cover;
   width: 100%;
   height: 400px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
 }
 @media (min-width: 768px){
 .col-md-3 {
@@ -48,7 +52,12 @@ input.ant-input.css-dev-only-do-not-override-1s3dcof {
 .turo-filter {
   background-color: white;
   border-radius: 30px;
-  padding: 10px 20px;
+  padding: 5px 20px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 14%);
+  position: absolute;
+  top: 12%;
+  right: 5%;
+  left: 5%;
 }
 label {
   display: inline-block;
@@ -56,4 +65,29 @@ label {
 }
 .search-filter {
   border-right: 1px solid #C7C7C7;
+}
+.ant-space.css-dev-only-do-not-override-1s3dcof.ant-space-horizontal.ant-space-align-center{
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  background-color: #593CFB;
+  border-radius: 30px;
+  color: white;
+}
+
+span.anticon.anticon-search svg {
+  width: 3.5em;
+    height: 2em;
+}
+@media screen and (min-width:1400px){
+  .turo-filter{
+    left: 20%;
+    right: 20%;
+  }
+}
+@media screen and (min-width:992px) and (max-width:1399px){
+  .turo-filter{
+    left: 10%;
+    right: 10%;
+  }
 }

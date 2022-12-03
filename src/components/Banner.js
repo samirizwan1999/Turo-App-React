@@ -1,5 +1,4 @@
 import React from 'react'
-import banner from "./images/banner.jpg"
 import { Input } from 'antd';
 import { DatePicker, Space } from 'antd';
 import dayjs from 'dayjs';
@@ -31,7 +30,7 @@ const Banner = () => {
                         <label>From</label>
                         <div className='from-date-pick'>
                                 <DatePicker defaultValue={dayjs('2015/01/01', dateFormat)} format={dateFormat} />
-                                <TimePicker onChange={onChange} defaultOpenValue={dayjs('00:00:00', 'HH:mm:ss')} />
+                                <TimePicker onChange={onChange} defaultValue={dayjs('0:00:00', 'HH:mm:ss')} />
                             </div> 
                         </div>    
                         </div>
@@ -39,11 +38,11 @@ const Banner = () => {
                         <label>Until</label>
                         <div className='until-date-pick'>
                                 <DatePicker defaultValue={dayjs('2015/01/01', dateFormat)} format={dateFormat} />
-                                <TimePicker onChange={onChange} defaultOpenValue={dayjs('00:00:00', 'HH:mm:ss')} />
+                                <TimePicker onChange={onChange} defaultValue={dayjs('10:00:00', 'HH:mm:ss')} />
                             </div> 
                         </div>
                         <div className='col-md-1'>
-                            <Space>
+                            <Space className='designer-icon'>
                                 <SearchOutlined />
                             </Space>
                         </div>
