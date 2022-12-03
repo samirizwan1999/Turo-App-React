@@ -4,8 +4,12 @@ import { Input } from 'antd';
 import { DatePicker, Space } from 'antd';
 import dayjs from 'dayjs';
 import customParseFormat from 'dayjs/plugin/customParseFormat';
+import { TimePicker } from 'antd';
 
 const dateFormat = 'YYYY/MM/DD';
+const onChange = (time, timeString) => {
+    console.log(time, timeString);
+  };
 const Banner = () => {
   return (
     <div>
@@ -15,14 +19,21 @@ const Banner = () => {
                     <div className='row'>
                         <div className='col-md-4'>
                         <div className='search-filter'>
-                            <Input placeholder="City, Airport, Address and Hotel" />
-                            <div className='date-pick'>
+                            <Input placeholder="City, Airport, Address and Hotel" /> 
+                        </div>
+                        </div>
+                        <div className='col-md-4'>
+                        <div className='from-date-pick'>
                                 <DatePicker defaultValue={dayjs('2015/01/01', dateFormat)} format={dateFormat} />
-                            </div>  
+                                <TimePicker onChange={onChange} defaultOpenValue={dayjs('00:00:00', 'HH:mm:ss')} />
+                            </div> 
                         </div>
+                        <div className='col-md-4'>
+                        <div className='until-date-pick'>
+                                <DatePicker defaultValue={dayjs('2015/01/01', dateFormat)} format={dateFormat} />
+                                <TimePicker onChange={onChange} defaultOpenValue={dayjs('00:00:00', 'HH:mm:ss')} />
+                            </div> 
                         </div>
-                        <div className='col-md-4'></div>
-                        <div className='col-md-4'></div>
                     </div>
                 </div>
             </div>

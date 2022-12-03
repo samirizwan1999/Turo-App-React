@@ -19,3 +19,8 @@ section.annoucment {
 .search-filter {
   display: flex;
 }
+@media (min-width: 768px){
+.col-md-4 {
+    padding: 0px;
+}
+}
