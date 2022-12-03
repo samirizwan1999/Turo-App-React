@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "Basis Grotesque";
+  src: url(/src/components/fonts/BasisGrotesqueArabicPro-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Freight_Text_Pro_Bold";
+  src: url(/src/components/fonts/FreightTextProBold-Regular.otf);
+}
 section.annoucment {
   text-align: center;
   font-size: 16px;
@@ -48,6 +57,7 @@ section.annoucment {
 input.ant-input.css-dev-only-do-not-override-1s3dcof {
   border: none;
   padding: 0px 11px;
+  border-radius: 35px;
 }
 .turo-filter {
   background-color: white;
@@ -89,5 +99,56 @@ span.anticon.anticon-search svg {
   .turo-filter{
     left: 10%;
     right: 10%;
+  }
+}
+.your-drive h1{
+  font-family: RlFreight, HoeflerText-Black, Times New Roman, serif;
+  font-size: 90px;
+  font-weight: 900;
+  letter-spacing: -1px;
+  line-height: 90px;
+  text-transform: none;
+}
+.your-drive p{
+  font-family: RlBasisGrotesque, Avenir, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: -0.2px;
+  line-height: 32px;
+  text-transform: none;
+  margin-bottom: 48px;
+}
+.your-drive {
+  text-align: center;
+}
+.rest{
+  background-color: #F2E9FF;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    max-width: 850px;
+    z-index: -1;
+    bottom: -12px;
+}
+.resting{
+  position: relative;
+}
+@media screen and (min-width:992px){
+  .rest{
+    left: 17%;
+  }
+  .your-drive p{
+    margin-bottom: 48px;
+  }
+  .your-drive h1{
+    margin-top: 40px;
+  }
+}
+@media screen and (min-width:768px){
+  .your-drive p{
+    margin-top: 24px;
+  }
+  .your-drive h1{
+    margin-bottom: 16px;
   }
 }
