@@ -16,11 +16,44 @@ section.annoucment {
   width: 100%;
   height: 400px;
 }
-.search-filter {
-  display: flex;
-}
 @media (min-width: 768px){
-.col-md-4 {
+.col-md-3 {
     padding: 0px;
 }
+}
+@media (min-width: 768px){
+  .col-md-4 {
+      padding: 0px;
+  }
+}
+@media (min-width: 768px){
+  .col-md-5 {
+      padding: 0px;
+  }
+}
+.turo-filter .row{
+  display: flex;
+  justify-content: center;
+}
+.ant-picker.css-dev-only-do-not-override-1s3dcof{
+  width: 50%;
+  border: none;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+input.ant-input.css-dev-only-do-not-override-1s3dcof {
+  border: none;
+  padding: 0px 11px;
+}
+.turo-filter {
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+label {
+  display: inline-block;
+  padding: 0px 10px;
+}
+.search-filter {
+  border-right: 1px solid #C7C7C7;
 }
