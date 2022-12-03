@@ -153,6 +153,7 @@ span.anticon.anticon-search svg {
   }
   .slider-1{
     margin-top: 88px;
+    margin-bottom: 50px;
   }
 }
 
@@ -166,6 +167,7 @@ span.anticon.anticon-search svg {
   border-radius: 8px;
   box-shadow: 0 2px 4px 0 rgb(35 31 32 / 20%), 0 0 1px 0 rgb(35 31 32 / 10%);
   color: #231F20;
+  margin-bottom: 15px;
 }
 .car-slide p {
   padding: 10px;
@@ -219,4 +221,16 @@ button.slick-arrow.slick-next {
 }
 .slick-slider.slick-initialized {
   margin-top: 40px;
+}
+.head-with-arrows h2{
+  font-family: RlBasisGrotesque, Avenir, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 21px;
+  font-weight: 900;
+  letter-spacing: -0.2px;
+  line-height: 28px;
+  text-transform: none;
+}
+
+.collect img {
+  width: 100%;
 }

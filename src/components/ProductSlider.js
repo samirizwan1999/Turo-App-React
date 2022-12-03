@@ -81,8 +81,8 @@ export default class SimpleSlider extends Component {
           <div className="head-with-arrows">
            <h2> Browse by make</h2>
           </div>
-          <LeftOutlined />
-          <RightOutlined />
+          {/* <LeftOutlined />
+          <RightOutlined /> */}
         <Slider {...settings}>
           <div className="car-slide">
             <img src={BMW} />
@@ -106,6 +106,7 @@ export default class SimpleSlider extends Component {
           </div>
           <div className="car-slide">
           <img src={Nissan} />
+          <p>Nissan</p>
           </div>
           <div className="car-slide">
           <img src={Porsche} />
