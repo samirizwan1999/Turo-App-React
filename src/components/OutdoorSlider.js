@@ -19,7 +19,9 @@ export default class SimpleSlider extends Component {
     return (
         <div className="slider-2">
         <div className="container">
+          <div className="offcourse">
         <h2> Single Item</h2>
+        </div>
         <Slider {...settings}>
           <div className="out">
             <div className="row">

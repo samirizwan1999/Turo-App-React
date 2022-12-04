@@ -455,3 +455,26 @@ button.btn.btn-primary.sam{
 .feature-section {
   margin-top: 50px;
 }
+.tour-mood{
+  margin: 0;
+  color: #121214;
+  margin-bottom: 16px;
+  font-family: RlBasisGrotesque, Avenir, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.25px;
+  line-height: 20px;
+  text-transform: none;
+}
+.tour-mood p {
+  margin-bottom: 0px;
+  padding-left: 10px;
+}
+.tour-mood {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.offcourse{
+  visibility: hidden;
+}

@@ -7,6 +7,7 @@ import ProductSlider from "./components/ProductSlider"
 import OutdoorSlider from "./components/OutdoorSlider"
 import DestinationSlider from "./components/DestinationSlider"
 import FeatureBanner from './components/FeatureBanner';
+import ExperienceSlider from "./components/ExperienceSlider"
 import Faqs from "./components/Faqs"
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <OutdoorSlider />
       <DestinationSlider />
       <FeatureBanner />
+      <ExperienceSlider />
       <Faqs />
     </div>
   );
