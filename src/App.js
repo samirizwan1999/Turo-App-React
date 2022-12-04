@@ -8,7 +8,9 @@ import OutdoorSlider from "./components/OutdoorSlider"
 import DestinationSlider from "./components/DestinationSlider"
 import FeatureBanner from './components/FeatureBanner';
 import ExperienceSlider from "./components/ExperienceSlider"
+import TestimonialSlider from "./components/TestimonialSlider"
 import Faqs from "./components/Faqs"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -21,7 +23,9 @@ function App() {
       <DestinationSlider />
       <FeatureBanner />
       <ExperienceSlider />
+      <TestimonialSlider />
       <Faqs />
+      <Footer />
     </div>
   );
 }

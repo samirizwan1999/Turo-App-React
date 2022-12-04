@@ -20,50 +20,100 @@ export default class SimpleSlider extends Component {
       infinite: true,
       speed: 500,
       slidesToShow: 3,
-      slidesToScroll: 1
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1500,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            // infinite: true,
+          },
+        },
+        {
+          breakpoint: 1300,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            // infinite: true,
+          },
+        },
+        {
+          breakpoint: 1100,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            // infinite: true,
+          },
+        },
+        {
+          breakpoint: 850,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            // infinite: true,
+          },
+        }, 
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            initialSlide: 2,
+          },
+        },
+        {
+          breakpoint: 500,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            initialSlide: 2,
+          },
+        },
+      ],
     };
     return (
       <div className="container">
         <div className="destination">
         <h2>Browse by experience</h2>
         <Slider {...settings}>
-          <div>
-            <img src={Electric} />
+          <div className="elect">
+            <img className="klrahul" src={Electric} />
             <div className="tour-mood">
                 <img src={Icon4}/>
                 <p>Electric</p>
             </div>
           </div>
-          <div>
-            <img src={Delux}/>
+          <div className="elect">
+            <img className="klrahul" src={Delux}/>
             <div className="tour-mood">
                 <img src={Icon5}/>
                 <p>Deluxe & Super Deluxe</p>
             </div>
           </div>
-          <div>
-            <img src={Pet}/>
+          <div className="elect">
+            <img className="klrahul" src={Pet}/>
             <div className="tour-mood">
                 <img src={Icon6}/>
                 <p>Pet-friendly</p>
             </div>
           </div>
-          <div>
-            <img src={Convertibles}/>
+          <div className="elect">
+            <img className="klrahul" src={Convertibles}/>
             <div className="tour-mood">
                 <img src={Icon1}/>
                 <p>Convertibles</p>
             </div>
           </div>
-          <div>
-            <img src={Wheel}/>
+          <div className="elect">
+            <img className="klrahul" src={Wheel}/>
             <div className="tour-mood">
                 <img src={Icon2}/>
                 <p>All-wheel drive</p>
             </div>
           </div>
-          <div>
-            <img src={Classic}/>
+          <div className="elect">
+            <img className="klrahul" src={Classic}/>
             <div className="tour-mood">
                 <img src={Icon3}/>
                 <p>Classic cars</p>

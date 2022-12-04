@@ -16,7 +16,14 @@ const CollapseQ = () => {
         <div className="row FAQs_one">
           <div className="col-md-2"></div>
           <div className="col-md-8">
-            <h1>Frequently asked questions</h1>
+          <div className='your-drive'>
+                <div className='resting'>
+                <p className='testtext'>Frequently asked questions</p>
+                <div className='fest'>
+
+                </div>
+                </div>
+            </div>
             <div className="Purple mx-5 mb-5"></div>
           </div>
           <div className="col-md-2"></div>
